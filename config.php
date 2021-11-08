@@ -18,6 +18,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = getenv('WWWROOT');
+$CFG->sslproxy  = getenv('SSLPROXY');
 $CFG->dataroot  = getenv('DATAROOT');
 $CFG->admin     = 'admin';
 
